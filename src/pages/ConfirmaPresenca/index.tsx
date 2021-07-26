@@ -1,6 +1,9 @@
 import Head from "next/head";
 import { useState } from "react";
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 import Footer from "../../components/Footer";
 import { Header } from "../../components/Header";
@@ -8,7 +11,6 @@ import { Header } from "../../components/Header";
 import styles from './styles.module.scss'
 
 import { FiTrash, FiCheck } from 'react-icons/fi'
-import ReactWhatsapp from "react-whatsapp";
 
 
 
@@ -21,35 +23,54 @@ export default function Confirmed() {
 
     const [names, setNames] = useState<Names[]>([]);
     const [newName, setNewName] = useState('');
+
     const [listName, setListName] = useState('')
+    const [sendMensage, setSendMensage] = useState(false)
+
+
 
     function handleNewName() {
-        if (!newName) return;
-
-        const name = {
-            id: Math.random(),
-            name: newName,
+        if (!newName) {
+            toast.error("Ops! Faltou colocar um nome no campo... vamos tentar de novo? 😅")
         }
+        else {
 
-        setNames(oldState => [...names, name])
+            const name = {
+                id: Math.random(),
+                name: newName,
+            }
 
-        setListName(oldState => `${listName}, ${name.name}`)
+            setNames(oldState => [...names, name])
+            setListName(oldState => `${listName}, ${name.name}`)
 
+            setSendMensage(true)
 
-        setNewName('')
+            setNewName('')
+
+        }
     }
 
     function handleConfirmed() {
-        if (names.length > 0) {
-            setNames([])
-            setListName('')
-        }
+
+        window.location.replace(`
+            https://wa.me/5514996247077?text=Olá!! Estamos confirmando nossa presença no seu casamento para celebrarmos juntos. 
+            A listinha dos nomes pra vocês: *${listName}*. Muito obrigado e até breve!
+        `)
+
+        setNames([])
+        setListName('')
+
+        setSendMensage(false)
     }
 
     function handleRemoveName(id: number) {
         const filterNames = names.filter(names => names.id !== id)
 
         setNames(filterNames)
+
+        if (names.length <= 1) {
+            setSendMensage(false)
+        }
     }
 
     return (
@@ -61,13 +82,14 @@ export default function Confirmed() {
             </Head>
 
             <div className='container'>
-                <div className={styles.main}>
+                <div className={styles.content}>
 
                     <Header />
 
-                    <p>Coloque seu nome no campo abaixo e confirma no <span>verde</span>! Depois é só enviar a confirmação e pronto 🥰</p>
-
                     <div className={styles.nameList}>
+
+                        <p>Coloque seu nome no campo abaixo e confirma no <span>verde</span>! Depois é só enviar a confirmação e pronto 🥰</p>
+
                         <div className={styles.formNames}>
 
 
@@ -99,19 +121,21 @@ export default function Confirmed() {
                             </ul>
                         </div>
 
-                        <ReactWhatsapp number="+5514996247077" message={`Olá!! Estamos confirmando nossa presença no seu casamento para celebrarmos juntos. A listinha dos nomes pra vocês: *${listName}*... Muito Obrigado e até lá!`}
+                        <div className={sendMensage ? styles.enable : styles.disable}>
+                            <button onClick={sendMensage ? handleConfirmed : null}>
+                                <p>Enviar Confirmação</p>
+                            </button>
+                        </div>
 
-                        >
-                            <p>Enviar Confirmação</p>
-                        </ReactWhatsapp>
                     </div>
-
 
 
 
                 </div>
 
             </div>
+
+            <ToastContainer />
 
             <Footer />
         </>

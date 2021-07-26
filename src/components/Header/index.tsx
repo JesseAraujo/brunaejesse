@@ -3,10 +3,12 @@ import styles from './styles.module.scss'
 export function Header() {
     return (
         <div className={styles.content} >
-            <img src='/logo.svg' alt="Bruna e Jessé" />
+            <img src='/logo.svg' alt="Bruna & Jessé" />
 
-            <a href="/"> Início</a>
-            <a href="/Contato"> Contatos</a>
+            <nav>
+                <a href="/"> Início</a>
+                <a href="/Contato"> Contato</a>
+            </nav>
         </div>
     )
 }

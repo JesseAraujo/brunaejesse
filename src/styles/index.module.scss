@@ -1,34 +1,54 @@
-.main{
-    width: 500px;
+.content{
+    width: 816px;
 
-            
-    .button {                
-        background: var(--blue-300);
-        width: 100%;
-        border-radius: 50px;
-        border: 0;
+    display: flex;
+    justify-content: center;
 
-        cursor: pointer;
-
-        transition: filter 0.2s;
+    .groupButtons {
+        margin-top: 10rem;
+        width: 500px;
 
 
-        p {
-            color: var(--withe);
-            text-transform: uppercase;
-
-            text-align: center;
-
-            padding: 24px 0;
+        .button {                
+            background: var(--blue-300);
+            width: 100%;
+            border-radius: 50px;
+            border: 0;
+    
+            cursor: pointer;
+    
+            transition: filter 0.2s;
+    
+    
+            p {
+                color: var(--withe);
+                text-transform: uppercase;
+    
+                text-align: center;
+    
+                padding: 18px 0;
+            }
+    
+            &:hover {
+                filter: brightness(0.9);
+            }
+    
+            &:first-child {
+                margin-bottom: 8px;
+            }
         }
 
-        &:hover {
-            filter: brightness(0.9);
-        }
-
-        &:first-child {
-            margin-bottom: 20px;
-        }
     }
         
+}
+
+@media (max-width: 720px) {
+
+    .content {
+        width: 100%;
+
+        .groupButtons {
+            margin-top: 5rem;
+        }
+    }
 }

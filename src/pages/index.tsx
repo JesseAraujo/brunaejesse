@@ -18,11 +18,9 @@ export default function Home() {
 
 
       <div className='container'>
+        <Header />
 
-        <div className={styles.main}>
-
-          <Header />
-
+        <div className={styles.content}>
           <div className={styles.groupButtons}>
             <div className={styles.button}>
               <Link href='/ConfirmaPresenca' >

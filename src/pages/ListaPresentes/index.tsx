@@ -14,8 +14,7 @@ export default function GiftList() {
             </Head>
 
             <div className='container'>
-
-                <div className={styles.main}>
+                <div className={styles.content}>
 
                     <Header />
 

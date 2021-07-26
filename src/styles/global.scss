@@ -5,6 +5,7 @@
     --red: #CB6E6E;
     --green: #74B582;
 
+    --gray-100: #DFDFDF;
     --gray-300: #626262;
 
     --blue-100: #A8CFE7;
@@ -19,18 +20,6 @@
     box-sizing: border-box;
 }
 
-@media (max-width: 1080px) {
-    html {
-        font-size: 93.75%;
-    }
-}
-
-@media (max-width: 720px) {
-    html {
-        font-size: 87.5%;
-    }
-}
-
 body {
     background: var(--background);    
     color: var(--gray-300);
@@ -42,6 +31,12 @@ body, input, textarea, select, button {
 
 button {
     cursor: pointer;
+
+    
+}
+
+a {
+    text-decoration: none;
 }
 
 .container {
@@ -50,8 +45,26 @@ button {
     margin: 0 auto;
     
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+@media (max-width: 1080px) {
+    html {
+        font-size: 93.75%;
+    }
+}
+
+@media (max-width: 720px) {
+    html {
+        font-size: 87.5%;
+    }
+
+    .container {
+        width: 100%;
+
+        padding: 0 30px;
+    }
+}
 

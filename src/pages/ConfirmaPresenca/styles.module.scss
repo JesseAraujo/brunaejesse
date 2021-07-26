@@ -1,6 +1,11 @@
 
-.main{
-    width: 500px;
+.content{
+    width: 816px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+
 
     p {
         font-size: 1.2rem;
@@ -17,12 +22,10 @@
 
     }
 
-
-
     .nameList {       
 
-        margin: 50px 0 20px;
-
+        margin: 50px auto 20px;
+        width: 500px;
         
         .formNames {
             display: flex;
@@ -31,16 +34,19 @@
             justify-content: space-between;            
         
     
-            .inputGroup {                
+            .inputGroup {   
+
                 width: 100%; 
                 position: relative;
+
+                margin-top: 50px;
                 
                 input {
 
                     width: 100%;
 
                     background: var(--withe);
-                    border: 0;
+                    border: 1px solid var(--blue-300);
                     color: var(--gray-300);
                     padding: 16px 24px;
 
@@ -128,30 +134,69 @@
         } 
         
     }
-}     
 
-    .button {
-        background: var(--blue-300);
+    
+    .enable{
+        button {
+            background: var(--blue-300);
+    
+            width: 100%;
+        
+            border-radius: 50px;
+            border: 0;
+        
+            cursor: pointer;
+        
+            transition: filter 0.2s;
+        
+            p {
+                color: var(--withe);
+                text-transform: uppercase;
+        
+                text-align: center;
+        
+                padding: 18px 0;
+            }
+        
+            &:hover {
+                filter: brightness(0.9);
+            }
+        }        
+    }
 
+    .disable{
+        button {
+            background: var(--gray-100);
+    
+            width: 100%;
+        
+            border-radius: 50px;
+            border: 0;
+        
+            cursor: no-drop;
+        
+            p {
+                color: var(--withe);
+                text-transform: uppercase;
+        
+                text-align: center;
+        
+                padding: 18px 0;
+            }
+        
+        }        
+    }
+    
+}      
+
+@media (max-width: 720px) {
+
+    .content {
         width: 100%;
 
-        border-radius: 50px;
-        border: 0;
-
-        cursor: pointer;
-
-        transition: filter 0.2s;
-
-        p {
-            color: var(--withe);
-            text-transform: uppercase;
-
-            text-align: center;
-
-            padding: 24px 0;
-        }
-
-        &:hover {
-            filter: brightness(0.9);
+        .nameList { 
+            margin: 50px 0 10px;
+            width: 100%;
         }
     }
+}
