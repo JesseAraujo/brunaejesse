@@ -1,0 +1,157 @@
+
+.main{
+    width: 500px;
+
+    p {
+        font-size: 1.2rem;
+        color: var(--gray-300);
+
+        text-align: center;
+
+        span {
+            color: var(--green);
+            text-transform: uppercase;
+
+            font-weight: 700;
+        }
+
+    }
+
+
+
+    .nameList {       
+
+        margin: 50px 0 20px;
+
+        
+        .formNames {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;            
+        
+    
+            .inputGroup {                
+                width: 100%; 
+                position: relative;
+                
+                input {
+
+                    width: 100%;
+
+                    background: var(--withe);
+                    border: 0;
+                    color: var(--gray-300);
+                    padding: 16px 24px;
+
+                    text-align: center;
+                    
+                    border-radius: 50px;
+                    
+                    &::placeholder {
+                        color: var(--blue-100)
+                    }
+                }
+            
+                button {
+                    font-weight: 600;
+                    border-radius: 50px;
+                    border: 0;
+                    background: var(--green);
+                    color: var(--withe);
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+
+                    position: absolute;
+                    right: 0;
+                    top: -5px;
+            
+                    padding: 24px;
+                    transition: filter 0.2s;
+            
+                    &:hover {
+                        filter: brightness(0.95);
+                    }
+                    
+                }
+            }
+        }
+  
+        .showListNames {
+            margin: 20px 0;  
+
+        
+            ul {
+                list-style: none;
+                background: var(--withe);                  
+                padding: 0 0 0 10px;
+            
+                li {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    border-bottom: 1px solid #EBEBEB;
+            
+                    div {
+                        display: flex;
+                        align-items: center;
+                        gap: 14px;
+                        outline: 0;
+            
+                        p {
+                            font-size: 1rem;
+                            color: var(--text);
+                        }
+            
+                    }
+                }
+        
+                button {
+                    background: var(--red);
+                    border: 0;
+                    
+                    width: 50px;
+                    height: 50px;
+
+                    padding: 8px;
+        
+                    svg {
+                        color: var(--withe);
+                    }
+        
+                    &:hover {                       
+                        filter: brightness(0.8)
+                    }
+                }
+            }
+        } 
+        
+    }
+}     
+
+    .button {
+        background: var(--blue-300);
+
+        width: 100%;
+
+        border-radius: 50px;
+        border: 0;
+
+        cursor: pointer;
+
+        transition: filter 0.2s;
+
+        p {
+            color: var(--withe);
+            text-transform: uppercase;
+
+            text-align: center;
+
+            padding: 24px 0;
+        }
+
+        &:hover {
+            filter: brightness(0.9);
+        }
+    }

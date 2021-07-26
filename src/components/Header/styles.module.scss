@@ -1,0 +1,30 @@
+.content {
+    width: 500px;
+
+    margin: 0 auto 100px;
+
+    display: block;
+    
+    text-align: center;
+
+    img { 
+        width: 100%; 
+        margin-top: 100px;   
+    }
+
+    a {
+      color: var(--blue-300);
+      font-size: 1rem;
+      font-weight: 400;
+
+      padding: 0 10px;
+
+      text-decoration: none;
+      
+      &:hover {
+          font-weight: 700;
+          color: var(--gray-300);
+      }
+     
+    }
+}

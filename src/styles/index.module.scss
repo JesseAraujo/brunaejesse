@@ -1,0 +1,34 @@
+.main{
+    width: 500px;
+
+            
+    .button {                
+        background: var(--blue-300);
+        width: 100%;
+        border-radius: 50px;
+        border: 0;
+
+        cursor: pointer;
+
+        transition: filter 0.2s;
+
+
+        p {
+            color: var(--withe);
+            text-transform: uppercase;
+
+            text-align: center;
+
+            padding: 24px 0;
+        }
+
+        &:hover {
+            filter: brightness(0.9);
+        }
+
+        &:first-child {
+            margin-bottom: 20px;
+        }
+    }
+        
+}
