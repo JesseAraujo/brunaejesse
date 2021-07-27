@@ -11,7 +11,7 @@ export default function Contact() {
     return (
         <>
             <Head>
-                <title>Bruna & Jessé | Comfirmar Presença</title>
+                <title>Bruna & Jessé | Contato</title>
             </Head>
 
             <div className='container'>

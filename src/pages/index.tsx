@@ -32,7 +32,6 @@ export default function Home() {
 
       <Head>
         <title>Bruna & Jessé</title>
-        <meta name="description" content="Casamento Bruna & Jessé" />
       </Head>
 
 
