@@ -8,6 +8,8 @@
         gap: 20px;
 
         justify-content: center;
+
+        margin-bottom: 20px;
         
 
         .itensList {
@@ -19,15 +21,22 @@
             text-align: center;
             border-radius: 50px;
 
+            border: 1px solid var(--blue-300);
+
             
             img {
-                width: 80%;
+                width: 200px;
             }
 
-            p {
-                color: var(--gray-300);
-                font-size: 1.1rem;
+
+            .giftTitle{
+                height: 85px;
                 margin-top: 20px;
+
+                p {
+                    color: var(--gray-300);
+                    font-size: 1.1rem;
+                }
             }
 
             .amount {
@@ -41,21 +50,35 @@
                 margin: 20px 0 ;
             }
 
-            button {                
+            button {
                 background: var(--blue-300);
+        
                 width: 100%;
+            
                 border-radius: 50px;
                 border: 0;
-                
-                color: var(--withe);
-                padding: 15px 0;
-        
-                transition: filter 0.2s;                
-        
+            
+                transition: filter 0.2s;
+    
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            
+                p {
+                    color: var(--withe);
+                    text-transform: uppercase;
+            
+                    text-align: center;
+            
+                    padding: 18px 0;
+    
+                    margin-left: 10px;
+                }
+            
                 &:hover {
                     filter: brightness(0.9);
-                }        
-            }
+                }
+            }    
             
         }
 

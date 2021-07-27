@@ -14,50 +14,39 @@
         a{
             display: flex;
             justify-content: center;
-            align-items: center;
+            align-items: center;            
+        
+            transition: filter 0.2s; 
 
             &.whatsapp {                
                 background: var(--green);
                 width: 100%;
-                border-radius: 50px;
-                border: 0;
-        
-                cursor: pointer;
-        
-                transition: filter 0.2s;     
-                
-                p {
-                    padding: 18px 0;
-                    font-size: 1rem;
-
-                    color: var(--withe);
-                    text-transform: uppercase;
-                }
+                border-radius: 50px;                
             }
 
             &.telegram {                
                 background: var(--blue-300);
                 width: 100%;
                 border-radius: 50px;
-                border: 0;
-        
-                cursor: pointer;
-        
-                transition: filter 0.2s;     
-                
-                p {
-                    padding: 18px 0;
-                    font-size: 1rem;
+            }
 
-                    color: var(--withe);
-                    text-transform: uppercase;
+            p {
+                padding: 18px 0;
+                font-size: 1rem;
 
-                }
+                margin-left: 10px;
+
+                color: var(--withe);
+                text-transform: uppercase;
             }
 
             &:last-child {
                 margin-top: 10px;
             }
+
+            &:hover {
+                filter: brightness(0.9);
+            } 
 
         }        
 

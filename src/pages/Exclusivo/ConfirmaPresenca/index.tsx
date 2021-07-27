@@ -5,12 +5,13 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
-import Footer from "../../components/Footer";
-import { Header } from "../../components/Header";
+import Footer from "../../../components/Footer";
+import { Header } from "../../../components/Header";
 
 import styles from './styles.module.scss'
 
 import { FiTrash, FiCheck } from 'react-icons/fi'
+import { FaWhatsapp } from "react-icons/fa";
 
 
 
@@ -88,7 +89,8 @@ export default function Confirmed() {
 
                     <div className={styles.nameList}>
 
-                        <p>Coloque seu nome no campo abaixo e confirma no <span>verde</span>! Depois é só enviar a confirmação e pronto 🥰</p>
+                        <p>Coloque seu nome no campo abaixo e confirma no <span>verde</span> ✅! Depois é só enviar a confirmação e pronto!! <br />
+                            Ah! lembrando que a confirmação é apenas para o evento depois da cerimônia.</p>
 
                         <div className={styles.formNames}>
 
@@ -123,6 +125,7 @@ export default function Confirmed() {
 
                         <div className={sendMensage ? styles.enable : styles.disable}>
                             <button onClick={sendMensage ? handleConfirmed : null}>
+                                <FaWhatsapp size={24} color="#fff" />
                                 <p>Enviar Confirmação</p>
                             </button>
                         </div>

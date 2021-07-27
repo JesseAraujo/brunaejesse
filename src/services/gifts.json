@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "image": "/assets/gifts/faca.png",
+        "title": "Conjunto de Facas Tramontina Plenus em Aço Inox e Polipropileno – 9 Peças",
+        "price": "R$ 59,90"
+    },
+    {
+        "id": 2,
+        "image": "/assets/gifts/aspirador.png",
+        "title": "Aspirador de Pó Vertical Philco Rapid Turbo PH1100 1000W",
+        "price": "R$ 189,90"
+    },
+    {
+        "id": 3,
+        "image": "/assets/gifts/cafeteira.png",
+        "title": "Cafeteira Elétrica Mondial Pratic NC-25 17 Xícaras – Preta",
+        "price": "R$ 79,90"
+    },
+    {
+        "id": 4,
+        "image": "/assets/gifts/ferro-de-passar.png",
+        "title": "Ferro a Vapor Mondial F32 com Spray - Branco/Azul",
+        "price": "R$ 69,90"
+    },
+    {
+        "id": 5,
+        "image": "/assets/gifts/jogo-panelas.png",
+        "title": "Jogo de Panelas Tramontina Turim Antiaderente Vermelha - 10 Peças",
+        "price": "R$ 299,00"
+    },
+    {
+        "id": 6,
+        "image": "/assets/gifts/jogo-talheres.png",
+        "title": "Faqueiro Tramontina Ipanema em Aço Inox e Polipropileno com Pote Menta – 30 Peças",
+        "price": "R$ 39,90"
+    },
+    {
+        "id": 7,
+        "image": "/assets/gifts/mixer.png",
+        "title": "Mixer Britânia 3 em 1 com Triturador de Alimento e Batedor de Claras - 200W",
+        "price": "R$ 154,90"
+    },
+    {
+        "id": 8,
+        "image": "/assets/gifts/multiprocessador.png",
+        "title": "Multiprocessador de Alimentos Philco 9 em 1 PMP1600V com 1400W – Vermelho",
+        "price": "R$ 389,90"
+    },
+    {
+        "id": 9,
+        "image": "/assets/gifts/panela-eletrica.png",
+        "title": "Panela Elétrica de Arroz Mondial Bianca Rice NPE-05 5 Xícaras – Branca",
+        "price": "R$ 109,90"
+    },
+    {
+        "id": 10,
+        "image": "/assets/gifts/sanduicheira.png",
+        "title": "Sanduicheira Grill Ultra S13 - Preto",
+        "price": "R$ 69,90"
+    },
+    {
+        "id": 11,
+        "image": "/assets/gifts/airfry.png",
+        "title": "Fritadeira Air Fry Multilaser CE021 com Timer 4L - Preto",
+        "price": "R$ 325,00"
+    },
+    {
+        "id": 12,
+        "image": "/assets/gifts/pote.png",
+        "title": "Conjunto Assadeira Marinex 1576 com Tampa Cinza 6 Peças",
+        "price": "R$ 92,90"
+    },
+    {
+        "id": 13,
+        "image": "/assets/gifts/formabolo.png",
+        "title": "Forma De Bolo Nº 24 Antiaderente Alumínio Oliveira",
+        "price": "R$ 31,87"
+    },
+    {
+        "id": 14,
+        "image": "/assets/gifts/kitassadeira.png",
+        "title": "Kit de Assadeiras + Mini Forma Alumínio Fortaleza",
+        "price": "R$ 39,00"
+    },
+    {
+        "id": 15,
+        "image": "/assets/gifts/jogo-talheres2.png",
+        "title": "Jogo De Talheres Colher Faca Garfo 24 Peças Inox Tramontina",
+        "price": "R$ 48,45"
+    },
+    {
+        "id": 16,
+        "image": "/assets/gifts/jogo-panelas2.png",
+        "title": "Jogo de Panelas Tramontina Antiaderente",
+        "price": "R$ 349,90"
+    },
+    {
+        "id": 17,
+        "image": "/assets/gifts/jogo-pratos.png",
+        "title": "Aparelho De Jantar Oxford Donna Cerâmica 20 Peças - Azul Claro",
+        "price": "R$ 179,99"
+    },
+    {
+        "id": 18,
+        "image": "/assets/gifts/batedeira.png",
+        "title": "Batedeira Portátil Preta 500W PBT510P",
+        "price": "R$ 212,71"
+    },
+    {
+        "id": 19,
+        "image": "/assets/gifts/jogo-copos.png",
+        "title": "Jogo de copos wheaton crystal em vidro 300 ml 6 peças água e suco",
+        "price": "R$ 21,95"
+    },
+    {
+        "id": 20,
+        "image": "/assets/gifts/panela-pressa.png",
+        "title": "Panela de Pressão Clock 4,5L Prata - Original Polida Alumínio",
+        "price": "R$ 89,90"
+    },
+    {
+        "id": 21,
+        "image": "/assets/gifts/pote2.png",
+        "title": "Jogo de Potes de Plástico Hermético Electrolux - com Tampa Quadrado 80000565 10 Peças",
+        "price": "R$ 99,90"
+    }
+]

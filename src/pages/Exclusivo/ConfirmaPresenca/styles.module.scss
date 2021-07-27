@@ -145,9 +145,11 @@
             border-radius: 50px;
             border: 0;
         
-            cursor: pointer;
-        
             transition: filter 0.2s;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
         
             p {
                 color: var(--withe);
@@ -156,6 +158,8 @@
                 text-align: center;
         
                 padding: 18px 0;
+
+                margin-left: 10px;
             }
         
             &:hover {
@@ -174,6 +178,10 @@
             border: 0;
         
             cursor: no-drop;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
         
             p {
                 color: var(--withe);
@@ -182,6 +190,8 @@
                 text-align: center;
         
                 padding: 18px 0;
+
+                margin-left: 10px;
             }
         
         }        
