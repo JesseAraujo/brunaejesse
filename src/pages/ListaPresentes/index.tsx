@@ -8,7 +8,19 @@ import styles from './styles.module.scss';
 
 import gifts from '../../services/gifts.json'
 
+interface ItensProps {
+    id: number;
+    image: string,
+    title: string,
+    amount: string,
+}
+
 export default function GiftList() {
+
+    function handleBuy() {
+        window.location.replace('/FinalizarCompra')
+    }
+
     return (
         <>
 
@@ -34,7 +46,7 @@ export default function GiftList() {
                                 <div className={styles.amount}>
                                     <h1>{gift.price}</h1>
                                 </div>
-                                <button type="button" >
+                                <button type="button" onClick={handleBuy} >
                                     <FiShoppingCart size={16} color="#fff" />
                                     <p>Comprar</p>
                                 </button>

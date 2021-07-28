@@ -41,12 +41,6 @@ export default function Home() {
         <div className={styles.content}>
           <div className={styles.groupButtons}>
 
-            <div className={styles.button}>
-              <Link href='/Exclusivo/ConfirmaPresenca' >
-                <p>Confirmar presença</p>
-              </Link>
-            </div>
-
             <button
               className={styles.button}
               onClick={openModal}
