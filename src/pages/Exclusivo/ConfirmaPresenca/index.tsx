@@ -54,8 +54,7 @@ export default function Confirmed() {
     function handleConfirmed() {
 
         window.location.replace(`
-            https://wa.me/5514996247077?text=Olá!! Estamos confirmando nossa presença no seu casamento para celebrarmos juntos. 
-            A listinha dos nomes pra vocês: *${listName}*. Muito obrigado e até breve!
+            https://wa.me/5514996247077?text=Olá noivos!!!! Estamos confirmando nossa presença na festa após a cerimônia para continuar a celebrarmos juntos. A listinha dos nomes pra vocês: *${listName}*. Muito obrigado e até breve!
         `)
 
         setNames([])
@@ -89,8 +88,7 @@ export default function Confirmed() {
 
                     <div className={styles.nameList}>
 
-                        <p>Coloque seu nome no campo abaixo e confirma no <span>verde</span> ✅! Depois é só enviar a confirmação e pronto!! <br />
-                            Ah! lembrando que a confirmação é apenas para o evento depois da cerimônia.</p>
+                        <p>Coloque seu nome no campo abaixo e confirma no <span>verde</span> ✅! Depois é só enviar a confirmação e pronto!! <br /></p>
 
                         <div className={styles.formNames}>
 

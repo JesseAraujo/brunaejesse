@@ -7,6 +7,7 @@ export function Header() {
 
             <nav>
                 <a href="/"> Início</a>
+                <a href="/PoucoDeNos"> Pouco de Nós</a>
                 <a href="/Contato"> Contato</a>
             </nav>
         </div>

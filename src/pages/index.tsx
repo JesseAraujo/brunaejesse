@@ -48,11 +48,11 @@ export default function Home() {
               <p>Convite</p>
             </button>
 
-            <div className={styles.button}>
-              <Link href='/ListaPresentes'>
+            <Link href='/ListaPresentes'>
+              <div className={styles.button}>
                 <p>Lista de Presentes</p>
-              </Link>
-            </div>
+              </div>
+            </Link>
 
           </div>
 

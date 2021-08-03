@@ -22,11 +22,11 @@ export default function Contact() {
                     <div className={styles.groupButtons}>
                         <a href="https://wa.me/5514996247077?text=Olá!!" className={styles.whatsapp}>
                             <FaWhatsapp size={24} color="#fff" />
-                            <p>WhatsApp</p>
+                            <p>WhatsApp - (14) 9 9624-7077</p>
                         </a>
-                        <a href="" className={styles.telegram}>
+                        <a className={styles.telegram}>
                             <FaTelegram size={24} color="#fff" />
-                            <p>Telegram</p>
+                            <p>Telegram - (14) 9 9624-7077</p>
                         </a>
                     </div>
                 </div>

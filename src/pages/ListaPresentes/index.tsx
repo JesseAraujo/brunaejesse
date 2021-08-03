@@ -8,18 +8,29 @@ import styles from './styles.module.scss';
 
 import gifts from '../../services/gifts.json'
 
-interface ItensProps {
-    id: number;
-    image: string,
-    title: string,
-    amount: string,
-}
 
 export default function GiftList() {
 
-    function handleBuy() {
+    function handleBuy(image, title, price) {
+        const imageItem = image
+        const titleItem = title
+        const priceItem = price
+
+
+        localStorage.setItem('imageItem', imageItem)
+        localStorage.setItem('titleItem', titleItem)
+        localStorage.setItem('priceItem', priceItem)
+        window.location.reload()
+
+
         window.location.replace('/FinalizarCompra')
     }
+
+    const priceProduct = (price) =>
+        new Intl.NumberFormat('pt-BR', {
+            style: 'currency',
+            currency: 'BRL'
+        }).format(Number(price));
 
     return (
         <>
@@ -35,7 +46,7 @@ export default function GiftList() {
 
                     <div className={styles.groupItensList}>
                         {gifts.map(gift => (
-                            <div className={styles.itensList}>
+                            <div className={styles.itensList} key={gift.id}>
                                 <img src={gift.image} alt={gift.title} />
                                 <div className={styles.giftTitle}>
                                     <p>
@@ -43,18 +54,15 @@ export default function GiftList() {
                                     </p>
                                 </div>
 
-                                <div className={styles.amount}>
-                                    <h1>{gift.price}</h1>
+                                <div className={styles.price}>
+                                    <h1>{priceProduct(gift.price)}</h1>
                                 </div>
-                                <button type="button" onClick={handleBuy} >
+                                <button type="button" onClick={() => handleBuy(gift.image, gift.title, gift.price)} >
                                     <FiShoppingCart size={16} color="#fff" />
                                     <p>Comprar</p>
                                 </button>
                             </div>
                         ))}
-
-
-
 
                     </div>
                 </div>

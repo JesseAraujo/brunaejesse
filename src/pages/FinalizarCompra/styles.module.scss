@@ -26,6 +26,8 @@
 
            width: 160px;
            margin-right: 28px;
+
+           text-align: center;
         }
 
         .groupButtons {
@@ -59,7 +61,7 @@
                         background: var(--red);
                         color: var(--withe);
 
-                        border: 1px dashed var(--withe);
+                        border: 1px solid var(--withe);
                     }
                 }
                 
@@ -67,6 +69,46 @@
                 &:last-child {
                     margin-top: 20px;
                 }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .content {
+        width: 100%;  
+        
+        .item {
+            margin-top: 30px;
+
+            display: grid;
+            grid-template-columns: auto;
+            gap: 20px;
+
+            align-items: center;
+            justify-content: center;
+
+            text-align: center;
+
+            img {
+                width: 100%;
+            }
+
+            p {
+                width: 100%;
+                margin: 0;
+            }
+
+            h1 {
+                width: 100%;
+                margin: 0;
+            }
+
+
+            .groupButtons {
+                width: 100%;
             }
         }
     }

@@ -2,16 +2,39 @@ import Head from 'next/head'
 import { Header } from '../../components/Header'
 import Footer from '../../components/Footer'
 
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-
 import styles from './styles.module.scss'
+import { useEffect } from 'react';
+import { useState } from 'react';
+
 
 export default function FinishedBuy() {
+    const [imageItemProduct, setImageItemProduct] = useState('')
+    const [titleItemProduct, setTitleItemProduct] = useState('')
+    const [priceItemProduct, setPriceItemProduct] = useState('')
+
 
     function handleCanceled() {
+        localStorage.removeItem('imageItem')
+        localStorage.removeItem('titleItem')
+        localStorage.removeItem('priceItem')
+
         window.location.replace('/ListaPresentes')
     }
+
+    useEffect(() => {
+        const imageItemLocalStorage = localStorage.getItem('imageItem')
+        const titleItemLocalStorage = localStorage.getItem('titleItem')
+        const priceItemLocalStorage = (value) =>
+            new Intl.NumberFormat('pt-BR', {
+                style: 'currency',
+                currency: 'BRL'
+            }).format(Number(localStorage.getItem('priceItem')));
+
+        setImageItemProduct(imageItemLocalStorage)
+        setTitleItemProduct(titleItemLocalStorage)
+        setPriceItemProduct(priceItemLocalStorage)
+    }, [])
+
 
     return (
         <>
@@ -25,11 +48,11 @@ export default function FinishedBuy() {
                     <Header />
 
                     <div className={styles.item}>
-                        <img src="/assets/gifts/batedeira.png" alt="" />
+                        <img src={imageItemProduct} alt={titleItemProduct} />
 
-                        <p>Batedeira Portátil Preta 500W PBT510P</p>
+                        <p>{titleItemProduct}</p>
 
-                        <h1>R$ 212,71</h1>
+                        <h1>{priceItemProduct}</h1>
 
                         <div className={styles.groupButtons}>
                             <button className={styles.finishedBuy}>Finalizar Compra</button>
@@ -40,8 +63,6 @@ export default function FinishedBuy() {
 
                 </div>
             </div>
-
-            <ToastContainer />
 
             <Footer />
         </>
