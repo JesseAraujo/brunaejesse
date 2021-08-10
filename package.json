@@ -8,12 +8,14 @@
     "start": "next start"
   },
   "dependencies": {
+    "mercadopago": "^1.5.8",
     "next": "11.0.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-icons": "^4.2.0",
     "react-modal": "^3.14.3",
     "react-router-dom": "^5.2.0",
+    "react-sdk-mercadopago": "^1.1.1",
     "react-toastify": "^7.0.4",
     "react-whatsapp": "^0.2.1",
     "sass": "^1.35.2"
