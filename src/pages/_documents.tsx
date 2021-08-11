@@ -12,9 +12,10 @@ export default class MyDocument extends Document {
                     <meta name="description" content="Casamento Bruna e Jessé. Convite e confirmação de presença do casamento. Jessé e Bruna. Lista de presentes online" />
 
                     <link rel="shortcut icon" href="/favicon.png" type="image/png" />
-
+                    <script src="https://sdk.mercadopago.com/js/v2"></script>
                 </Head>
                 <body>
+                    <script src="https://sdk.mercadopago.com/js/v2"></script>
                     <Main />
                     <NextScript />
                 </body>
