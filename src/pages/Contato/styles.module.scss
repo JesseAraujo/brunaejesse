@@ -24,12 +24,6 @@
                 border-radius: 50px;                
             }
 
-            &.telegram {                
-                background: var(--blue-300);
-                width: 100%;
-                border-radius: 50px;
-            }
-
             p {
                 padding: 18px 0;
                 font-size: 1rem;
@@ -38,10 +32,6 @@
 
                 color: var(--withe);
                 text-transform: uppercase;
-            }
-
-            &:last-child {
-                margin-top: 10px;
             }
 
             &:hover {
@@ -60,8 +50,8 @@
         width: 100%;
 
         .groupButtons {
-            margin-top: 5rem;
-            width: 100%;            
+            width: 100%;  
+            margin-top: 5rem;          
         }
 
     }

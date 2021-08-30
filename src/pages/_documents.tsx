@@ -15,6 +15,7 @@ export default class MyDocument extends Document {
 
                 </Head>
                 <body>
+                    <script src="https://sdk.mercadopago.com/js/v2"></script>
                     <Main />
                     <NextScript />
                 </body>

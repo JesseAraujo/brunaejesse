@@ -11,18 +11,19 @@ import gifts from '../../services/gifts.json'
 
 export default function GiftList() {
 
-    function handleBuy(id, image, title, price) {
+    function handleBuy(id, image, title, price, url) {
         const idItem = id
         const imageItem = image
         const titleItem = title
         const priceItem = price
-
+        const urlItem = url
 
         localStorage.setItem('idItem', idItem)
 
         localStorage.setItem('imageItem', imageItem)
         localStorage.setItem('titleItem', titleItem)
         localStorage.setItem('priceItem', priceItem)
+        localStorage.setItem('urlItem', urlItem)
         window.location.reload()
 
 
@@ -60,7 +61,7 @@ export default function GiftList() {
                                 <div className={styles.price}>
                                     <h1>{priceProduct(gift.price)}</h1>
                                 </div>
-                                <button type="button" onClick={() => handleBuy(gift.id, gift.image, gift.title, gift.price)} >
+                                <button type="button" onClick={() => handleBuy(gift.id, gift.image, gift.title, gift.price, gift.url)} >
                                     <FiShoppingCart size={16} color="#fff" />
                                     <p>Comprar</p>
                                 </button>

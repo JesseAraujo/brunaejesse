@@ -2,25 +2,18 @@ import Head from 'next/head'
 import { Header } from '../../components/Header'
 import Footer from '../../components/Footer'
 
-import styles from './styles.module.scss'
-import { useEffect } from 'react';
-import { useState } from 'react';
+import axios from 'axios';
 
+import styles from './styles.module.scss'
+import { useEffect, useState } from 'react';
 
 
 export default function FinishedBuy() {
     const [imageItemProduct, setImageItemProduct] = useState('')
     const [titleItemProduct, setTitleItemProduct] = useState('')
     const [priceItemProduct, setPriceItemProduct] = useState('')
+    const [urlItemProduct, setUrlItemProduct] = useState('')
 
-
-    function handleCanceled() {
-        localStorage.removeItem('imageItem')
-        localStorage.removeItem('titleItem')
-        localStorage.removeItem('priceItem')
-
-        window.location.replace('/ListaPresentes')
-    }
 
     useEffect(() => {
         const imageItemLocalStorage = localStorage.getItem('imageItem')
@@ -30,12 +23,28 @@ export default function FinishedBuy() {
                 style: 'currency',
                 currency: 'BRL'
             }).format(Number(localStorage.getItem('priceItem')));
+        const urlItemLocalStorage = localStorage.getItem('urlItem')
+
 
         setImageItemProduct(imageItemLocalStorage)
         setTitleItemProduct(titleItemLocalStorage)
         setPriceItemProduct(priceItemLocalStorage)
+        setUrlItemProduct(urlItemLocalStorage)
     }, [])
 
+    function handleCanceled() {
+        localStorage.removeItem('idItem')
+        localStorage.removeItem('imageItem')
+        localStorage.removeItem('titleItem')
+        localStorage.removeItem('priceItem')
+        localStorage.removeItem('urlItem')
+
+        window.location.replace('/ListaPresentes')
+    }
+
+    function handleBuy() {
+        window.location.href = urlItemProduct
+    }
 
     return (
         <>
@@ -56,7 +65,7 @@ export default function FinishedBuy() {
                         <h1>{priceItemProduct}</h1>
 
                         <div className={styles.groupButtons}>
-                            <button className={styles.finishedBuy}>Finalizar Compra</button>
+                            <button className={styles.finishedBuy} onClick={handleBuy}>Finalizar Compra</button>
                             <button className={styles.canceledBuy} onClick={handleCanceled}  >Cancelar Compra</button>
                         </div>
                     </div>

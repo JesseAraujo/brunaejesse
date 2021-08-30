@@ -24,10 +24,6 @@ export default function Contact() {
                             <FaWhatsapp size={24} color="#fff" />
                             <p>WhatsApp - (14) 9 9624-7077</p>
                         </a>
-                        <a className={styles.telegram}>
-                            <FaTelegram size={24} color="#fff" />
-                            <p>Telegram - (14) 9 9624-7077</p>
-                        </a>
                     </div>
                 </div>
             </div>

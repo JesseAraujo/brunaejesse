@@ -3,138 +3,175 @@
         "id": 1,
         "image": "/assets/gifts/faca.png",
         "title": "Conjunto de Facas Tramontina Plenus em Aço Inox e Polipropileno – 9 Peças",
-        "price": 59.90
+        "price": 59.90,
+        "url": "https://mpago.la/1ek7AKi"
     },
     {
         "id": 2,
         "image": "/assets/gifts/aspirador.png",
         "title": "Aspirador de Pó Vertical Philco Rapid Turbo 1000W",
-        "price": 189.90
+        "price": 189.90,
+        "url": "https://mpago.la/31bwhd2"
     },
     {
         "id": 3,
         "image": "/assets/gifts/cafeteira.png",
         "title": "Cafeteira Elétrica Mondial Pratic 17 Xícaras – Preta",
-        "price": 79.90
+        "price": 79.90,
+        "url": "https://mpago.la/1GZgVv7"
     },
     {
         "id": 4,
         "image": "/assets/gifts/ferro-de-passar.png",
         "title": "Ferro a Vapor Mondial F32 com Spray - Branco/Azul",
-        "price": 69.90
+        "price": 69.90,
+        "url": "https://mpago.la/19uFepc"
     },
     {
         "id": 5,
         "image": "/assets/gifts/jogo-panelas.png",
         "title": "Jogo de Panelas Tramontina Turim Antiaderente Vermelha - 10 Peças",
-        "price": 299.00
+        "price": 299.00,
+        "url": "https://mpago.la/1znGYPN"
     },
     {
         "id": 6,
         "image": "/assets/gifts/jogo-talheres.png",
         "title": "Faqueiro Tramontina Ipanema em Aço Inox e Polipropileno com Pote Menta – 30 Peças",
-        "price": 39.90
+        "price": 39.90,
+        "url": "https://mpago.la/161ZiSo"
     },
     {
         "id": 7,
         "image": "/assets/gifts/mixer.png",
         "title": "Mixer Britânia 3 em 1 com Triturador de Alimento e Batedor de Claras - 200W",
-        "price": 154.90
+        "price": 154.90,
+        "url": "https://mpago.la/1ZeQg7E"
     },
     {
         "id": 8,
         "image": "/assets/gifts/multiprocessador.png",
         "title": "Multiprocessador de Alimentos Philco 9 em 1 com 1400W – Vermelho",
-        "price": 389.90
+        "price": 389.90,
+        "url": "https://mpago.la/1nPm3Vm"
     },
     {
         "id": 9,
         "image": "/assets/gifts/panela-eletrica.png",
         "title": "Panela Elétrica de Arroz Mondial Bianca Rice NPE-05 5 Xícaras – Branca",
-        "price": 109.90
+        "price": 109.90,
+        "url": "https://mpago.la/1vs5bgY"
     },
     {
         "id": 10,
         "image": "/assets/gifts/sanduicheira.png",
         "title": "Sanduicheira Grill Ultra - Preto",
-        "price": 69.90
+        "price": 69.90,
+        "url": "https://mpago.la/1u9W5c3"
     },
     {
         "id": 11,
         "image": "/assets/gifts/airfry.png",
         "title": "Fritadeira Air Fry Multilaser com Timer 4L - Preto",
-        "price": 325.00
+        "price": 325.00,
+        "url": "https://mpago.la/27sTc6K"
     },
     {
         "id": 12,
         "image": "/assets/gifts/pote.png",
         "title": "Conjunto Assadeira Marinex com Tampa Cinza 6 Peças",
-        "price": 92.90
+        "price": 92.90,
+        "url": "https://mpago.la/1hVcyka"
     },
     {
         "id": 13,
         "image": "/assets/gifts/formabolo.png",
         "title": "Forma De Bolo Nº 24 Antiaderente Alumínio Oliveira",
-        "price": 31.87
+        "price": 31.87,
+        "url": "https://mpago.la/1q3Lg2g"
     },
     {
         "id": 14,
         "image": "/assets/gifts/kitassadeira.png",
         "title": "Kit de Assadeiras + Mini Forma Alumínio Fortaleza",
-        "price": 39.00
+        "price": 39.00,
+        "url": "https://mpago.la/2GUjgK8"
     },
     {
         "id": 15,
         "image": "/assets/gifts/jogo-talheres2.png",
         "title": "Jogo De Talheres Colher Faca Garfo 24 Peças Inox Tramontina",
-        "price": 48.45
+        "price": 48.45,
+        "url": "https://mpago.la/1ER4vfh"
     },
     {
         "id": 16,
         "image": "/assets/gifts/jogo-panelas2.png",
         "title": "Jogo de Panelas Tramontina Antiaderente",
-        "price": 349.90
+        "price": 349.90,
+        "url": "https://mpago.la/2APctgh"
     },
     {
         "id": 17,
         "image": "/assets/gifts/jogo-pratos.png",
         "title": "Aparelho De Jantar Oxford Donna Cerâmica 20 Peças - Azul Claro",
-        "price": 179.99
+        "price": 179.99,
+        "url": "https://mpago.la/1SzE4v3"
     },
     {
         "id": 18,
         "image": "/assets/gifts/batedeira.png",
         "title": "Batedeira Portátil Preta 500W",
-        "price": 212.71
+        "price": 212.71,
+        "url": "https://mpago.la/2MZ2D5n"
     },
     {
         "id": 19,
         "image": "/assets/gifts/jogo-copos.png",
         "title": "Jogo de copos wheaton crystal em vidro 300 ml 6 peças água e suco",
-        "price": 21.95
+        "price": 21.95,
+        "url": "https://mpago.la/1myYMka"
     },
     {
         "id": 20,
         "image": "/assets/gifts/panela-pressa.png",
         "title": "Panela de Pressão Clock 4,5L Prata - Original Polida Alumínio",
-        "price": 89.90
+        "price": 89.90,
+        "url": "https://mpago.la/2tAmHzW"
     },
     {
         "id": 21,
         "image": "/assets/gifts/pote2.png",
         "title": "Jogo de Potes de Plástico Hermético Electrolux - com Tampa Quadrado 10 Peças",
-        "price": 99.90
+        "price": 99.90,
+        "url": "https://mpago.la/2Zv5hT5"
     },
     {
         "id": 22,
         "image": "/assets/gifts/jogo-sobremesa.png",
         "title": "Jogo de Sobremesa em Vidro 6 Peças - Nadir Paulista",
-        "price": 39.90
+        "price": 39.90,
+        "url": "https://mpago.la/17NPeKQ"
     },
     {
         "id": 23,
+        "image": "/assets/gifts/jarra-suco.png",
+        "title": "Jarra Graduada 2l Com Tampa Jaguar",
+        "price": 13.99,
+        "url": "https://mpago.la/2u1kz6E"
+    },
+    {
+        "id": 24,
+        "image": "/assets/gifts/tempero.png",
+        "title": "Kit 10 Potes 100ml P/ Tempero Tampa Dosadora Dupla",
+        "price": 38.00,
+        "url": "https://mpago.la/1kQ2B9X"
+    },
+    {
+        "id": 25,
         "image": "/assets/gifts/kit-espatulas.png",
         "title": "Jogo de Utensílios 3 Peças Tramontina Utilità Vermelho",
-        "price": 26.90
+        "price": 26.90,
+        "url": "https://mpago.la/2aPhrUV"
     }
 ]

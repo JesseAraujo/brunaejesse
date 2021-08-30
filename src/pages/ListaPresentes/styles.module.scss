@@ -87,7 +87,7 @@
     }
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1000px) {
 
     .content {
         width: 100%;
@@ -95,13 +95,16 @@
         .groupItensList {
         
             display: grid;
-            grid-template-columns: repeat(2, auto);            
+            grid-template-columns: repeat(2, auto);   
+            
+            margin-top: 50px;
+
         }
     }
 }
 
 
-@media (max-width: 720px) {
+@media (max-width: 600px) {
 
     .content {
         width: 100%;
