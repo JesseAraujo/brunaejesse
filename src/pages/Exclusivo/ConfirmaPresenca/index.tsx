@@ -42,7 +42,7 @@ export default function Confirmed() {
             }
 
             setNames(oldState => [...names, name])
-            setListName(oldState => `${listName}, ${name.name}`)
+            setListName(oldState => `%0A-> *${name.name}*, ${listName}`)
 
             setSendMensage(true)
 
@@ -54,7 +54,7 @@ export default function Confirmed() {
     function handleConfirmed() {
 
         window.location.replace(`
-            https://wa.me/5514996247077?text=Olá noivos!!!! Estamos confirmando nossa presença na festa após a cerimônia para continuar a celebrarmos juntos. A listinha dos nomes pra vocês: *${listName}*. Muito obrigado e até breve!
+            https://wa.me/5514996247077?text=Olá noivoooooooooos!!!!%0AEstamos confirmando nossa presença para após a cerimônia e continuar a celebrar com vocês!%0A %0AA listinha dos nomes pra vocês: ${listName}%0A %0AMuito obrigado e até breve!
         `)
 
         setNames([])
