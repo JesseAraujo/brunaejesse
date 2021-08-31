@@ -54,7 +54,7 @@ export default function Confirmed() {
     function handleConfirmed() {
 
         window.location.replace(`
-            https://wa.me/5514996247077?text=Olá noivoooooooooos!!!!%0AEstamos confirmando nossa presença para após a cerimônia e continuar a celebrar com vocês!%0A %0AA listinha dos nomes pra vocês: ${listName}%0A %0AMuito obrigado e até breve!
+            https://wa.me/5514996247077?text=Olá noivoooooooooos!!!!%0AEstamos confirmando nossa presença para a festinha após a cerimônia. Vamos continuar a celebrar com vocês!%0A %0AA listinha dos nomes pra vocês: ${listName}%0A %0AMuito obrigado e até breve!
         `)
 
         setNames([])
