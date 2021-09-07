@@ -173,5 +173,138 @@
         "title": "Jogo de Utensílios 3 Peças Tramontina Utilità Vermelho",
         "price": 26.90,
         "url": "https://mpago.la/2aPhrUV"
+    },
+    {
+        "id": 26,
+        "image": "/assets/gifts/escorredor.png",
+        "title": "Escorredor De Louças Duplo Cromado",
+        "price": 34.99,
+        "url": "https://mpago.la/2ntskRj"
+    },
+    {
+        "id": 27,
+        "image": "/assets/gifts/porta-papel-toalha.png",
+        "title": "Suporte De Porta Papel Toalha",
+        "price": 22.99,
+        "url": "https://mpago.la/2zDQEcv"
+    },
+    {
+        "id": 28,
+        "image": "/assets/gifts/pote3.png",
+        "title": "Kit Potes Plastico 12 Peças Sanremo 785ml",
+        "price": 66.99,
+        "url": "https://mpago.la/2roPEHc"
+    },
+    {
+        "id": 29,
+        "image": "/assets/gifts/churrasco.png",
+        "title": "Kit Churrasco 3 Peças Inox Garfo Faca Pegador Tramontina",
+        "price": 66.99,
+        "url": "https://mpago.la/24K8Npb"
+    },
+    {
+        "id": 30,
+        "image": "/assets/gifts/ralador.png",
+        "title": "Ralador 4 Faces Inox 24cm Original Legumes Queijos",
+        "price": 31.70,
+        "url": "https://mpago.la/2CNJGKa"
+    },
+    {
+        "id": 31,
+        "image": "/assets/gifts/pote4.png",
+        "title": "Kit De 10 Potes Com Tampa Para Marmita E Alimentos",
+        "price": 22.49,
+        "url": "https://mpago.la/1WR28vg"
+    },
+    {
+        "id": 32,
+        "image": "/assets/gifts/abridor.png",
+        "title": "Abridor De Latas E Garrafas Profissional Em Aço Inox",
+        "price": 15.00,
+        "url": "https://mpago.la/1dwT4KV"
+    },
+    {
+        "id": 33,
+        "image": "/assets/gifts/tabua.png",
+        "title": "Tabua De Carne Madeira Bambu Grande 50 X 30cm",
+        "price": 64.00,
+        "url": "https://mpago.la/1HE5HZ6"
+    },
+    {
+        "id": 34,
+        "image": "/assets/gifts/medidor.png",
+        "title": "Kit 8 Peças Medidor Culinário Colher Copo Em Aço Inox",
+        "price": 39.99,
+        "url": "https://mpago.la/2De3iGs"
+    },
+    {
+        "id": 35,
+        "image": "/assets/gifts/pote5.png",
+        "title": "Kit 5 Pote Tigelas De Vidro Com Tampa Redondo",
+        "price": 39.99,
+        "url": "https://mpago.la/1CNsWB6"
+    },
+    {
+        "id": 36,
+        "image": "/assets/gifts/garrafa-termica.png",
+        "title": "Garrafa Térmica Futura 750ml",
+        "price": 37.23,
+        "url": "https://mpago.la/33oamgh"
+    },
+    {
+        "id": 37,
+        "image": "/assets/gifts/escorredor2.png",
+        "title": "Porta Talheres Escorredor Aço Inox Vazado Cozinha",
+        "price": 21.50,
+        "url": "https://mpago.la/14yUsUo"
+    },
+    {
+        "id": 38,
+        "image": "/assets/gifts/kit-espatulad2.png",
+        "title": "Escumadeira Concha Colher + Pegador Inox",
+        "price": 31.41,
+        "url": "https://mpago.la/2yswcjD"
+    },
+    {
+        "id": 39,
+        "image": "/assets/gifts/xicara.png",
+        "title": "Jogo 6 Xicara Café Chá Porcelana 170ml",
+        "price": 58.90,
+        "url": "https://mpago.la/2CXYois"
+    },
+    {
+        "id": 40,
+        "image": "/assets/gifts/escorredor3.png",
+        "title": "Escorredor De Massa + Lava Arroz Inox",
+        "price": 60.00,
+        "url": "https://mpago.la/34ciq4N"
+    },
+    {
+        "id": 41,
+        "image": "/assets/gifts/kit-pia.png",
+        "title": "Utensilios Domesticos Lixeira Dispenser Detergente Kit Pia",
+        "price": 72.99,
+        "url": "https://mpago.la/2Uiz3gx"
+    },
+    {
+        "id": 42,
+        "image": "/assets/gifts/spatusa.png",
+        "title": "Conjunto Espátulas Para Manteiga 6 Peças Tramontina",
+        "price": 25.90,
+        "url": "https://mpago.la/2VLNkfK"
+    },
+    {
+        "id": 43,
+        "image": "/assets/gifts/kit-espatulad3.png",
+        "title": "Kit Cozinha 2 Pegadores De Massas E Saladas",
+        "price": 25.00,
+        "url": "https://mpago.la/1Jqg9uz"
+    },
+    {
+        "id": 44,
+        "image": "/assets/gifts/prato.png",
+        "title": "Jogo 6 Pratos Fundo Astral Duralex ",
+        "price": 49.00,
+        "url": "https://mpago.la/1PU2CLG"
     }
 ]
