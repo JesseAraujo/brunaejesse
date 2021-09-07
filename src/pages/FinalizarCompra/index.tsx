@@ -65,8 +65,8 @@ export default function FinishedBuy() {
                         <h1>{priceItemProduct}</h1>
 
                         <div className={styles.groupButtons}>
-                            <button className={styles.finishedBuy} onClick={handleBuy}>Finalizar Compra</button>
-                            <button className={styles.canceledBuy} onClick={handleCanceled}  >Cancelar Compra</button>
+                            <button className={styles.finishedBuy} onClick={handleBuy}>Finalizar</button>
+                            <button className={styles.canceledBuy} onClick={handleCanceled}  >Cancelar</button>
                         </div>
                     </div>
 

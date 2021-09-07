@@ -62,17 +62,13 @@ export default function GiftList() {
                                     <h1>{priceProduct(gift.price)}</h1>
                                 </div>
                                 <button type="button" onClick={() => handleBuy(gift.id, gift.image, gift.title, gift.price, gift.url)} >
-                                    <FiShoppingCart size={16} color="#fff" />
-                                    <p>Comprar</p>
+                                    <p>Presentear</p>
                                 </button>
                             </div>
                         ))}
-
                     </div>
+
                 </div>
-
-
-
             </div>
 
             <Footer />
