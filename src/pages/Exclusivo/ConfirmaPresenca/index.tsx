@@ -48,6 +48,8 @@ export default function Confirmed() {
 
             setNewName('')
 
+            toast.success("Oba!! Estaremos te esperando!! 😍")
+
         }
     }
 
@@ -90,9 +92,8 @@ export default function Confirmed() {
 
                         <h1>Atenção!!</h1>
 
-                        <p>Coloque seu nome no campo abaixo e confirma no <span>verde</span> ✅!
-                            Caso tenha mais nomes para incluir, insira um por vez...Digita o nome e confirma no <span>verde</span> do lado do nome,
-                            digita o outro nome e confirma no <span>verde</span>.</p>
+                        <p> Caso tenha mais nomes para incluir, insira um por vez...Digita o nome e confirma no <span>verde</span> do lado do nome,
+                            digita o outro nome e confirma no <span>verde</span>.</p> <br />
                         <p> Depois é só enviar a confirmação e pronto, todos os nomes que estarão na listisnha abaixo serão enviados para os noivos!! </p>
 
                         <div className={styles.formNames}>
