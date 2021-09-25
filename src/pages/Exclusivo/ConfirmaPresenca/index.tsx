@@ -88,7 +88,12 @@ export default function Confirmed() {
 
                     <div className={styles.nameList}>
 
-                        <p>Coloque seu nome no campo abaixo e confirma no <span>verde</span> ✅! Depois é só enviar a confirmação e pronto!! <br /></p>
+                        <h1>Atenção!!</h1>
+
+                        <p>Coloque seu nome no campo abaixo e confirma no <span>verde</span> ✅!
+                            Caso tenha mais nomes para incluir, insira um por vez...Digita o nome e confirma no <span>verde</span> do lado do nome,
+                            digita o outro nome e confirma no <span>verde</span>.</p>
+                        <p> Depois é só enviar a confirmação e pronto, todos os nomes que estarão na listisnha abaixo serão enviados para os noivos!! </p>
 
                         <div className={styles.formNames}>
 

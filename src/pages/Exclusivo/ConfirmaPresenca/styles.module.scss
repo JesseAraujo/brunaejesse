@@ -6,6 +6,10 @@
     flex-direction: column;
     justify-content: center;   
 
+    h1 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
 
     p {
         font-size: 1.2rem;
@@ -13,12 +17,14 @@
 
         text-align: center;
 
+        margin-bottom: 20px;
+
         span {
             color: var(--green);
             text-transform: uppercase;
 
             font-weight: 700;
-        }
+        }        
 
     }
 
@@ -150,10 +156,12 @@
             display: flex;
             justify-content: center;
             align-items: center;
-        
+
+            
             p {
                 color: var(--withe);
                 text-transform: uppercase;
+                margin-bottom: 0;
         
                 text-align: center;
         
@@ -186,9 +194,9 @@
             p {
                 color: var(--withe);
                 text-transform: uppercase;
+                margin-bottom: 0;
         
-                text-align: center;
-        
+                text-align: center;        
                 padding: 18px 0;
 
                 margin-left: 10px;
